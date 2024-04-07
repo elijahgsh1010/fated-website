@@ -6,7 +6,7 @@
 
 .banner-1 {
   @apply px-5  pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
-  background-color: #ffeed9;
+  background-color: #64B5F6;
 }
 
 .banner-2 {
@@ -17,11 +17,11 @@
   background-color: #ffddbf;
 }
 .hello-button {
-  background-color: #ffddbf;
+  background-color: #F8BBD0;
 }
 .menu-button {
   @apply 3xl:text-2xl 2xl:text-2xl xl:text-xl lg:text-xl md:text-xl  font-bold font-work_sans hover:text-black;
-  color: #594f43;
+  color: #F8BBD0;
 }
 
 .submit-button {
