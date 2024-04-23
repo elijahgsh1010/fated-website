@@ -1,6 +1,7 @@
 
 <template>
-  <div class="banner-1 space-y-10" style='height: 100vh;  background-image: url("./assets/image-1.png"); background-size: cover;'>
+  <!-- <div style='height: 100vh;  background-image: url("./assets/image-1.png"); background-size: cover;'></div> -->
+  <div class="banner-1 space-y-10 slide-overlay">
     <!-- NavBar -->
     <nav
       class="container px-6 mx-auto md:flex md:justify-between md:items-center"
@@ -59,13 +60,13 @@
         </h1>
 
         <div class="download-buttons md:flex gap-1 md:gap-10">
-          <a style="background-color: #F8BBD0" class="download-btn text-white submit-button hidden md:block" href="https://apps.apple.com/sg/app/keynote/id6443554112" target="_blank">
+          <a style="background-color: #F8BBD0" class="download-btn text-white submit-button hidden md:block" href="https://apps.apple.com/sg/app/keynote/fated" target="_blank">
             <img src="./assets/images/appstore.png" alt="appstore" />
           </a>
           <a 
               style="background-color: #F8BBD0"
               class="download-btn text-white bg-pink-800 submit-button hidden md:block"
-              href="https://play.google.com/store/apps/details?id=com.hrnetgroup.ease_works"
+              href="https://play.google.com/store/apps/details?id=com.elly.fated"
               target="_blank"
           >
             <img src="./assets/images/google.png" alt="google" />
@@ -84,13 +85,13 @@
         </div> -->
       </div>
 
-      <div class="w-8/12 flex justify-end">
-        <img
-          class="3xl:h-[800px] 2xl:h-[650px] xl:h-[550px] lg:h-[550px] md:h-[450px] sm:h-[350px]"
-          src="./assets/image-1.png"
-          alt="user image"
-        />
-      </div>
+<!--      <div class="w-8/12 flex justify-end">-->
+<!--        <img-->
+<!--          class="3xl:h-[800px] 2xl:h-[650px] xl:h-[550px] lg:h-[550px] md:h-[450px] sm:h-[350px]"-->
+<!--          src="./assets/image-1.png"-->
+<!--          alt="user image"-->
+<!--        />-->
+<!--      </div>-->
     </div>
   </div>
 
@@ -380,3 +381,15 @@
     },
   }
 </script>
+
+<style scoped>
+    .slide-overlay {
+        background-image: url('./assets/image-1.png');
+        background-position: 100% 100%;
+        background-size: fit;
+        background-repeat: no-repeat;
+        height: calc(100vh);
+        min-height: 700px;
+        position: relative;
+    }
+</style>
