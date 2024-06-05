@@ -7,10 +7,5 @@ export default defineConfig({
   server: {
     port: 3000,
     https: true,
-    hmr: {
-      host: "www.find-a-date.com",
-      port: 3000,
-      protocol: "wss",
-    },
   },
 })
